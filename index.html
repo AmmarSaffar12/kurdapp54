@@ -1,0 +1,2441 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="JbTools Library Of Tweaked++ Apps , Hacked Games ">
+<meta name="keywords" content="Tweaked apps, ios, jailbreak">
+<meta name="author" content="Kurd_App">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<link rel="stylesheet" href="aseets/css/style.css">
+<link rel="stylesheet" href="aseets/css/halfmoon.css">
+<script src="aseets/css/js/half.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+<script src="path/to/halfmoon.js"></script>
+<script type="text/javascript">
+  // Dark mode toggle demo
+ 
+</script>
+
+</head>
+<body>
+
+
+  <style>
+    body {
+        margin: 0 0 55px 0;
+    }
+    .imgg{
+      width: 30px !important;
+      float: right;
+    }
+    /* Style the tab */
+    nav {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 55px;
+        
+       
+        background-color: black;
+        display: flex;
+        overflow-x: auto;
+    }
+    
+    /* Style the buttons inside the tab */
+     nav a {
+      
+    
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding-left: 10px;
+      transition: 0.3s;
+      font-size: 17px;
+    
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        min-width: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+        font-family: sans-serif;
+        font-size: 15px;
+        color: #8c8c8c;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        transition: background-color 0.1s ease-in-out;
+    }
+    nav a:hover{
+    color:#dae90f;
+    }
+
+    .content{
+font-family: kurds !important; 
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding-left:10px;
+    
+    }
+    
+    
+    a:hover img.i1{
+      content: url('aseets/img/today2.png');
+   }
+   a:hover img.i2{
+    content: url('aseets/img/aoole\ black.png');
+   }
+   a:hover img.i3{
+    content: url('aseets/img/games2.png');
+   }
+   a:hover img.i5{
+    content: url('aseets/img/search2.png');
+   }
+
+.icob{
+  font-size: 24px; 
+  color: #8c8c8c;
+
+}
+.icob:hover {
+ color: #fffb00;
+}
+
+   a {
+    text-decoration: none !important;
+}
+    </style>
+   
+    
+    
+    <nav class="navbar"> 
+     
+    
+    <a class="tablinks m-auto" id="defaultOpen" onclick="openCity(event, 'home')"><img class="i1 " src="aseets/img/today1.png" style="width:24px;"><span class="nav__text">Home</span></a>
+        
+        <a class="tablinks" onclick="openCity(event, 'apps')"><img class="i2" src="aseets/img/apple.png" style="width:24px; "><span class="nav__text">Apps</span></a>
+    
+        <a class="tablinks" onclick="openCity(event, 'game')"><img class="i3" src="aseets/img/games1.png" style="width:26px; "><span class="nav__text">Android</span></a>
+        
+        <a class="tablinks icob" onclick="openCity(event, 'info')"><i class="fas fa-info" ></i>
+
+           
+    <span class="nav__text">About</span></a>
+    
+
+    </nav>
+
+
+
+
+<!-- First comes the modal -->
+
+
+<style>
+
+ 
+
+.ring
+{
+  position:absolute;
+
+  top:59%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:115px;
+  height:115px;
+  background:transparent;
+ 
+  border-radius:50%;
+  text-align:center;
+  line-height:150px;
+  font-family:sans-serif;
+  font-size:20px;
+  
+  color:#000000;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #000000;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+.ring:before
+{
+  content:'';
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+ 
+  border-top:3px solid #000000;
+  border-right:3px solid #000000;
+  border-radius:50%;
+  animation:animateC 2s linear infinite;
+}
+
+@keyframes animateC
+{
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+
+
+
+
+
+.img{
+  width: 111px;
+  border-radius: 50%;
+  padding-top: 2px;
+  
+
+}
+  
+button:hover img.i1{
+    content: url('aseets/img/today2.png');
+   }
+   button:hover img.i2{
+    content: url('aseets/img/apps2.png');
+   }
+   button:hover img.i3{
+    content: url('aseets/img/games2.png');
+   }
+   button:hover img.i4{
+    content: url('aseets/img/update2.png');
+   }
+   button:hover img.i5{
+    content: url('aseets/img/search2.png');
+   }
+
+   @font-face {
+  font-family: kurdf;
+  src: url(aseets/fonts/4.ttf);
+
+}
+@font-face {
+  font-family: kurds;
+  src: url(aseets/fonts/Poppins-Medium.ttf);
+
+}
+@font-face {
+  font-family: kurda;
+  src: url(aseets/fonts/Lato-Bold.ttf);
+
+}
+
+@font-face {
+  font-family: kurdg;
+  src: url(aseets/fonts/Lato-Regular.ttf);
+
+}
+
+.text12{
+  font-family: kurds;
+  text-align: center;
+  font-size: 12px;
+}
+
+.text23{
+  font-family: kurdf;
+  text-align: center;
+  font-size: 12px;
+}
+
+.text25{
+
+  font-family: kurds;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 13px;
+  border-top: 1px solid #ff0000 !important;
+ 
+
+}
+
+.text27{
+
+font-family: kurdf;
+font-size: 14px;
+text-align: center;
+}
+
+.text29{
+
+font-family: kurdf;
+font-size: 17px;
+text-align: center;
+font-weight: bold;
+}
+
+.text7{
+    font-family: kurds;
+    font-size: 20px;
+    text-align: center;
+}
+.nav__text{
+
+  font-size: 11px;
+  font-family: kurds;
+  color: #8c8c8c;
+
+}
+.text11{
+  font-family: kurds;
+
+
+}
+  
+.text13{
+
+font-family: kurds;
+text-align: center;
+font-size: 17px;
+padding-top: 110px;
+}
+
+.text14{
+
+font-family: kurds;
+text-align: center;
+font-size: 11px;
+
+}
+
+.text15{
+
+font-size: 10px;
+font-family: kurds;
+}
+
+.text16{
+
+font-size: 25px;
+font-family: kurds;
+text-align: center;
+}
+.text22{
+font-family: kurds;
+}
+.text20{
+
+font-size: 12px;
+
+text-align: center;
+}
+
+.text17{
+
+font-size: 13px;
+font-family: kurds;
+text-align: center;
+}
+
+
+.text6{
+  font-family: kurds;
+  font-size: 8px;
+  padding-top: 5px;
+}
+
+.img2{
+  width: 120px;
+  height:180px;
+}
+
+.img3{
+     border-radius: 20%;
+  width: 110px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgtext{
+
+  font-size: 25px;
+  font-family: kurds;
+  text-align: center;
+}
+
+.imgtext1{
+
+  font-size: 15px;
+  font-family: kurds;
+  text-align: center;
+ 
+}
+
+.textb{
+  font-family: kurds;
+  color: white;
+}
+
+.text21{
+text-align: center;
+font-family: kurds;
+}
+
+
+</style>
+
+ <!-- modal -->  <!-- modal --> <!--  modal --> <!--  modal --> <!-- modal --> 
+
+
+  <!-- modal -->  <!-- modal --> <!--  modal --> <!--  modal -->  <!-- modal -->
+
+<!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 -->
+<div class="modal " id="modal-3" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <a href="#" class="close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <div class="shadow">
+          <br>
+       
+          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+            <div class="w-full flex items-center justify-between p-3 alternate-background">
+            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+            <img src="aseets/img/apps/unc0ver.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+            </div>
+            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+            <div class="text5">
+              Unc0ver 
+            </div>
+            <div class="text6">
+            Jailbreak 12.3 - 13.5.1 - windows
+            </div>
+            </div>
+            </div>
+            <a href="#"><button  class="btn btn-secondary btn-sm bg text11 " style="color: white;" type="button">Download Ipa</button> </a>
+            </div>
+            </div>
+          <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+          
+          </div>
+
+      <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+       
+        <a href="#" class="btn btn-primary text10 style" role="button">Ok</a>
+        <br> <br> <br>
+      </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 -->
+
+
+          <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+          <div class="modal " id="modal-4" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <a href="#" class="close" role="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </a>
+                <div class="shadow">
+                    <br>
+                 
+                   
+                    <p class="text7">Download Ipa </p>
+                    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                      <div class="w-full flex items-center justify-between p-3 alternate-background">
+                      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                      <img src="aseets/img/apps/unc0ver.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                      </div>
+                      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                      <div class="text5">
+                        Unc0ver 
+                      </div>
+                      <div class="text6">
+                      Jailbreak 12.3 - 13.5.1 - windows
+                      </div>
+                      </div>
+                      </div>
+                    <a href="https://storage.ihvn.dev/ipas/unc0ver_5.3.0.ipa">  <button class="btn btn-secondary btn-sm text11 " style="color: white;" type="button">Download Ipa</button></a>
+                      </div>
+                      </div>
+                    <hr>
+                    
+                          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                            <div class="w-full flex items-center justify-between p-3 alternate-background">
+                            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                            <img src="aseets/img/apps/fb.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                            </div>
+                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                            <div class="text5">
+                              Facebook ++ 
+                            </div>
+                            <div class="text-xs font-medium text-grey leading-tight text6">
+                              Tweaked
+                      
+                            </div>
+                            </div>
+                            </div>
+                         <a href="https://cdn.app-valley.vip/63.vip.appvalley.fbpp.ipa">  <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button></a> 
+                      
+                            </div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/apps/ig.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                                Instagram ++ 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                                Tweaked
+                        
+                              </div>
+                              </div>
+                              </div>
+                            <a href="https://storage.ihvn.dev/ipas/IG_Plus_v115.0v1.ipa">  <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button></a>
+                        
+                              </div>
+                              
+
+
+                              <hr>
+                              <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                <img src="aseets/img/apps/tiktok.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                </div>
+                                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                <div class="text5">
+                                  Tiktok ++ 
+                                </div>
+                                <div class="text-xs font-medium text-grey leading-tight text6">
+                                  Download video without water mark
+                          
+                                </div>
+                                </div>
+                                </div>
+                              <a href="185.246.209.74/ipa/1121012122.ipa"> <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button></a> 
+                          
+                                </div>
+                                </div>
+                                <hr>
+                                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                  <img src="aseets/img/apps/Kinemaster.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                  </div>
+                                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                  <div class="text5">
+                                    Kine master
+                                  </div>
+                                  <div class="text-xs font-medium text-grey leading-tight text6">
+                                    Without Water Mark
+                            
+                                  </div>
+                                  </div>
+                                  </div>
+                                <a href="http://185.246.209.74/ipa/818152328.ipa"> <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button></a> 
+                            
+                                  </div>
+                                  </div>
+                                  <hr>
+                                  <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                    <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                    <img src="aseets/img/apps/videostar.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                    </div>
+                                    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                    <div class="text5">
+                                      Video star
+                                    </div>
+                                    <div class="text-xs font-medium text-grey leading-tight text6">
+                                      Unlock all features
+                              
+                                    </div>
+                                    </div>
+                                    </div>
+                                  <a href="https://cdn.i3rby.com/out/videostar++Signed.ipa">  <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button></a>
+                              
+                                    </div>
+                                    </div>
+                            
+
+                    <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+                    
+                    </div>
+          
+                <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+                 
+                  <a href="#" class="btn btn-primary text10 style" role="button">Ok</a>
+                  <br> <br> <br>
+                </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+
+
+          
+          <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 -->
+          <div class="modal " id="modal-4" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <a href="#" class="close" role="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </a>
+                <div class="shadow">
+                    <br>
+                 
+                   
+                    <p class="text7">Download Ipa </p>
+                    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                      <div class="w-full flex items-center justify-between p-3 alternate-background">
+                      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                      <img src="aseets/img/apps/unc0ver.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                      </div>
+                      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                      <div class="text5">
+                        Unc0ver 
+                      </div>
+                      <div class="text6">
+                      Jailbreak 12.3 - 13.5.1 - windows
+                      </div>
+                      </div>
+                      </div>
+                      <button class="liiiink" style="color: white;" type="button">Download Ipa</button>
+                      </div>
+                      </div>
+                    <hr>
+                     
+                          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                            <div class="w-full flex items-center justify-between p-3 alternate-background">
+                            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                            <img src="aseets/img/apps/fb.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                            </div>
+                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                            <div class="text5">
+                              Facebook ++ 
+                            </div>
+                            <div class="text-xs font-medium text-grey leading-tight text6">
+                              Tweaked
+                      
+                            </div>
+                            </div>
+                            </div>
+                            <button class="liiink" style="color: white;" type="button">Download Ipa</button>
+                      
+                            </div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/apps/ig.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                                Instagram ++ 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                                Tweaked
+                        
+                              </div>
+                              </div>
+                              </div>
+                              <button class="liiiiink" style="color: white;" type="button">Download Ipa</button>
+                        
+                              </div>
+                              </div>
+              
+                              <hr>
+                              <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                <img src="aseets/img/apps/tiktok.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                </div>
+                                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                <div class="text5">
+                                  Tiktok ++ 
+                                </div>
+                                <div class="text-xs font-medium text-grey leading-tight text6">
+                                  Download video without water mark
+                          
+                                </div>
+                                </div>
+                                </div>
+                                <button class="liiiiink" style="color: white;" type="button">Download Ipa</button>
+                          
+                                </div>
+                                </div>
+                                <hr>
+                                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                  <img src="aseets/img/apps/Kinemaster.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                  </div>
+                                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                  <div class="text5">
+                                    Kine master
+                                  </div>
+                                  <div class="text-xs font-medium text-grey leading-tight text6">
+                                    Without Water Mark
+                            
+                                  </div>
+                                  </div>
+                                  </div>
+                                  <button class="liiiiink" style="color: white;" type="button">Download Ipa</button>
+                            
+                                  </div>
+                                  </div>
+                                  <hr>
+                                  <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                    <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                    <img src="aseets/img/apps/videostar.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                    </div>
+                                    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                    <div class="text5">
+                                      Video star
+                                    </div>
+                                    <div class="text-xs font-medium text-grey leading-tight text6">
+                                      Unlock all features
+                              
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <button class="liiiiink" style="color: white;" type="button">Download Ipa</button>
+                              
+                                    </div>
+                                    </div>
+                           
+                      
+
+
+                    <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+                    
+                    </div>
+          
+                <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+                 
+                  <a href="#" class="btn btn-primary text10 style" role="button">Ok</a>
+                  <br> <br> <br>
+                </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!-- 4 --> <!-- 4 --> <!-- 4 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 -->
+
+          <div class="modal " id="modal-5" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <a href="#" class="close" role="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </a>
+                <div class="shadow">
+                    <br>
+                 
+                   
+                   
+                    <p class="text7"> Social Plus ++</p>
+                    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                      <div class="w-full flex items-center justify-between p-3 alternate-background">
+                      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                      <img src="aseets/img/face.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                      </div>
+                      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                      <div class="text5">
+                        Facebook ++
+                      </div>
+                      <div class="text6">
+                        Facebook plus
+                
+                      </div>
+                      </div>
+                      </div>
+                      <a href="https://apkdone.com/facebook/" class="btn btn-secondary btn-sm text11" style="color: white;">Download </a>
+                    </div>
+                      </div>
+                    <hr>
+                      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                        <div class="w-full flex items-center justify-between p-3 alternate-background">
+                        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                        <img src="aseets/img/instagram.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                        </div>
+                        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                        <div class="text5">
+                         Instagram ++
+                        </div>
+                        <div class="text-xs font-medium text-grey leading-tight text6">
+                           Instagram Plus
+                
+                  
+                        </div>
+                        </div>
+                        </div>
+                     <a href="https://apkdone.com/instagram/"  class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download</a>   
+                  
+                        </div>
+                        </div>
+                        <hr>
+                          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                            <div class="w-full flex items-center justify-between p-3 alternate-background">
+                            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                            <img src="aseets/img/tiktok.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                            </div>
+                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                            <div class="text5">
+                              Tiktok ++
+                
+                            </div>
+                            <div class="text-xs font-medium text-grey leading-tight text6">
+                              download video without logo
+                      
+                            </div>
+                            </div>
+                            </div>
+                           <a href="https://apkdone.com/tiktok/"> <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download </button></a>
+                      
+                            </div>
+                            </div>
+                            <hr>
+            
+          
+                          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                            <div class="w-full flex items-center justify-between p-3 alternate-background">
+                            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                            <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2Fa49cf895-fb7f-40ab-a050-d05c757fa404.image.png?v=1615221573827" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                            </div>
+                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                            <div class="text5">
+                          Viber Mod
+                
+                            </div>
+                            <div class="text-xs font-medium text-grey leading-tight text6">
+                              Unlocked
+                      
+                            </div>
+                            </div>
+                            </div>
+                           <a href="https://apkdone.com/viber-messenger/"> <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download </button></a>
+                      
+                            </div>
+                            </div>
+                            <hr>
+
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+
+                    <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+                    
+                    </div>
+          
+                <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+                 
+                  <a href="#" class="btn btn-primary text10 style" role="button">Ok</a>
+                  <br> <br> <br>
+                </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+                    <!-- modal-7 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 -->
+
+<!-- Modal that can not be closed by clicking on the overlay, or pressing the [esc] key -->
+<div class="modal" id="modal-7" tabindex="-1" role="dialog" data-overlay-dismissal-disabled="true" data-esc-dismissal-disabled="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <a href="#" class="close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <h5 class="text7">Teacher Book</h5>
+      <p class="text21">
+       Teacher Book In Website Class {7&8&9&10&11&12} In Kurdistan
+      </p>
+
+
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+          <img src="video/img/malzama.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+          Teacher Book
+        </div>
+        <div class="text6">
+          Teacher Book In Class {7&8&9&10&11&12} In Website Click In Kurdistan
+        </div>
+        </div>
+        </div>
+       <a href="https://drive.google.com/drive/mobile/folders/1zzPHd47iXel4T6lUTgSzNubSCl-llx4z/1lcVc4YrZvwsDrq1B0o5JGAqECdFLTuRK?sort=13&direction=a"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">View</button></a>
+        </div>
+        </div>
+      <hr>
+ 
+  
+
+      <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+      
+        <a href="#" class="btn btn-primary text10 text" role="button">Exit</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Optional. Required for modals to be dismissible by clicking on overlays, or pressing the [esc] key. -->
+
+
+<div class="modal" id="modal-8" tabindex="-1" role="dialog" data-overlay-dismissal-disabled="true" data-esc-dismissal-disabled="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <a href="#" class="close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <h5 class="text7">Revok</h5>
+    <hr>
+    <br>
+      <h5 class="text29">!دامبەزاند بەڵام کار ناکات ؟</h5>
+     
+     <p class="text27 m-5 "> ھەر کاتێک ئەپێکت دابەزاند و کاری نەکرد یان کراشی کرد ئەوە واتا لە لایەن ئەپڵەوە راگیراوە پێوستە نوێ بکرێتەوە ، ھەرکاتێ نوێ کرایەوە ئێمە لە سایت ئەپدەیت دەکەینەوە دەتوانی لە  <span style="color: #32afed;">تێلێگرام</span>   ئاگادار بیت </p>
+<br>
+<hr>
+
+<br>
+  <h5 class="text29">سیدیا</h5>
+ 
+ <p class="text27 m-5 "><span style="color: #4bb543; font-size: 12px;">AppSync unified</span> ئەوانەی سیدیایان ھەیە دەتوانن لە  تویکی  ئینستال بکەن ھەر ئەپێکیان ویست لە سایت دایبگرن و بێ کێشە کار دەکات</p>
+<br>
+<hr>
+
+      <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+      
+        <a href="#" class="btn btn-primary text10 text" role="button">Exit</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Optional. Required for modals to be dismissible by clicking on overlays, or pressing the [esc] key. -->
+<!-- However, the dismissal methods have been disabled by the attributes on the modal here. -->
+<script src="path/to/halfmoon.js"></script>
+
+
+
+
+
+
+
+
+ <!-- modal -->  <!-- modal --> <!--  modal --> <!--  modal --> <!-- modal --> 
+
+<!-- modal -->  <!-- modal --> <!--  modal --> <!--  modal --> <!-- modal -->  
+<div id="home" class="tabcontent">
+  <div class="card shadoww-sm border-0">
+    <div class="dropdown">
+      
+      <button class="btn icon1 " data-toggle="dropdown" type="button" id="dropdown-toggle-btn-1" aria-haspopup="true" aria-expanded="false"><i class="fas fa-language jj"></i>
+
+        <!-- ml-5 = margin-left: 0.5rem (5px) -->
+      </button>
+      <div class="dropdown-menu text2" aria-labelledby="dropdown-toggle-btn-1">
+        
+        <a data-toggle="modal" data-target="modal-6" class="dropdown-item text2">Kurdish</a>
+         <a data-toggle="modal" data-target="modal-200" class="dropdown-item text2">Arabic</a>
+        <div class="dropdown-divider"></div>
+        
+      </div>
+    </div>
+ <!-- kurd modal -->  <!-- kurd modal --> <!-- kurd modal --> <!-- kurd modal -->
+      <div class="modal" id="modal-200" tabindex="-2" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button class="close" data-dismiss="modal" type="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h5 class="modal-title text9">تغيير اللغة</h5>
+          <p class="text12">تغيير اللغة غير متوفر</p>
+          <p class="text23">قريبا</p>
+          <div class="text-center mt-20"> 
+         <a href="" class="btn btn-primary text10 style" role="button">Ok</a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- kurd modal --> <!-- kurd modal --> <!-- kurd modal --> <!-- kurd modal --> <!-- kurd modal -->
+    <a onclick="toggleDemo()"><i class="far fa-moon moon" aria-hidden="true"></i></a>
+ 
+	  <h2 class="card-title text1">
+       
+      <br>
+      
+    </h2>
+
+
+    
+    
+    
+
+    
+    
+    
+    <div class="modal" id="modal-6" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button class="close" data-dismiss="modal" type="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h5 class="modal-title text9">گۆرینی زمان </h5>
+          <p class="text12">گۆرینی زمان بەردەست نیە</p>
+          <p class="text23">بەم زووانە</p>
+          <div class="text-center mt-20"> 
+       <a href="ku.html" class="btn btn-primary text10 style" role="button">تەواو</a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- kurd modal --> <!-- kurd modal --> <!-- kurd modal --> <!-- kurd modal --> <!-- kurd modal -->
+
+
+
+
+
+ 
+  </div>
+  
+  <div class="card shadoww-sm border-0 card1">
+
+  <p class="text7">Website Kurd_App For Hack App Or JailBreak Or & If there is a problem, let me know in the about section.</p>
+ 
+    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+      <div class="w-full flex items-center justify-between p-3 alternate-background">
+      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+      <img src="video/img/malzama.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+      </div>
+      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+      <div class="text5">
+        Teacher Book
+      </div>
+      <div class="text6">
+        Teacher Book {7&8&9&10&11&12} All Teacher Book In Website In Kurdistan
+      </div>
+      </div>
+      </div>
+    <a href="#modal-7"> <button  class="btn btn-primary btn-sm bg text11" style="color: white;" type="button">View</button></a> 
+  
+  
+      </div>
+      </div>
+      <hr>
+  <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+    <div class="w-full flex items-center justify-between p-3 alternate-background">
+    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+    <img src="aseets/img/apps/apple.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+    </div>
+    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+    <div class="text5">
+      Apple id 
+    </div>
+    <div class="text6">
+      premium Apps
+    </div>
+    </div>
+    </div>
+  <a href="#modal-1"> <button  class="btn btn-primary btn-sm bg text11" style="color: white;" type="button">Not Avalibe</button></a> 
+
+
+    </div>
+    </div>
+      <hr>
+  
+    
+    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+    <div class="w-full flex items-center justify-between p-3 alternate-background">
+    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+    <img src="aseets/img/vide.png" style="border-radius: 23%;" width="50px" height="50px" class="n">
+    </div>
+    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+    <div class="text5">
+      Video Downloader 
+    </div>
+    <div class="text6">
+      Download video in IG - FB - tiktok ..
+    </div>
+    </div>
+    </div>
+    <div class="sticky-alerts"></div>
+      
+	    
+	    
+	    
+	    
+	  
+
+    
+
+      
+     
+	    
+	    
+    <!-- Content wrapper containing the toggles -->
+   
+    <a href="video/index.html"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">View</button></a>
+
+     
+
+
+    </div>
+    </div>
+     <!-- fix 
+    <hr>
+  
+    
+    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+    <div class="w-full flex items-center justify-between p-3 alternate-background">
+    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+    <img src="aseets/img/fix.svg" style="border-radius: 23%;" width="50px" height="50px" class="n">
+    </div>
+    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+    <div class="text5">
+      Fix Revok
+    </div>
+    <div class="text6">
+     how to fix revoked
+    </div>
+    </div>
+    </div>
+    <div class="sticky-alerts"></div>
+      
+    
+   
+    <a href="#modal-8"> <button class="btn btn-primary btn-sm bg text11" type="button" >View</button></a>
+  
+     
+
+
+    </div>
+    </div>
+  -->
+     
+ <br>
+  
+  
+  </div>
+</div>
+
+
+<style>
+  
+</style>
+
+
+<!--Appss--><!--Appss--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps-->
+<!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps-->
+
+<div id="apps" class="tabcontent">
+  <div class="card shadoww-sm border-0">
+   
+   <row> <p class="text7">Apps</p>  
+      
+     
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+          <img src="aseets/img/ipa.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+          Ipa Apps
+        </div>
+        <div class="text6">
+        Ipa Apps
+        </div>
+        </div>
+        </div>
+       <a href="#modal-4"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">View</button></a>
+        </div>
+        </div>
+      <hr>
+     
+     
+     
+     
+     
+     
+          
+   
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="aseets/img/apps/unc0ver.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+          Unc0ver v6.1.0
+        </div>
+        <div class="text6">
+        Jailbreak 11 - 14.3 
+        </div>
+        </div>
+        </div>
+        
+        <a href="itms-services://?action=download-manifest&amp;url=https://ammarsaffar12.github.io/kurdapp/plist/unc0ver.plist"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+
+              </div>
+       <hr>
+
+
+        
+        
+        
+        
+             
+          
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+          <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2F0b57b6cd-0ec7-45f9-9956-a3d1895cedbc.image.png?v=1615228127257" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+     Odssey
+        </div>
+        <div class="text6">
+   JailBreak For Ios 11 To 13.7
+        </div>
+        </div>
+        </div>
+       <a href="https://is.gd/sWPVKy"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">Dowlond</button></a>
+        </div>
+        </div>
+      <hr>
+     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+              <div class="w-full flex items-center justify-between p-3 alternate-background">
+              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+              <img src="aseets/img/apps/fb.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+              </div>
+              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+              <div class="text5">
+                Facebook ++ 
+              </div>
+              <div class="text-xs font-medium text-grey leading-tight text6">
+                Tweaked
+        
+              </div>
+              </div>
+              </div>
+              <a href=""> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">Block</button></a>
+        
+              </div>
+              </div>
+              <hr>
+              <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                <div class="w-full flex items-center justify-between p-3 alternate-background">
+                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                <img src="aseets/img/apps/ig.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                </div>
+                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                <div class="text5">
+                  Instagram ++ 
+                </div>
+                <div class="text-xs font-medium text-grey leading-tight text6">
+                  Tweaked
+          
+                </div>
+                </div>
+                </div>
+                <a href="https://is.gd/N0ftrP"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+          
+                </div>
+                </div>
+
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/tiktok.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                    Tiktok ++ 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                    Download video without water mark
+            
+                  </div>
+                  </div>
+                  </div>
+                  <a href="https://is.gd/KAgKkh"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+            
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                    <div class="w-full flex items-center justify-between p-3 alternate-background">
+                    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                    <img src="aseets/img/apps/Kinemaster.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                    </div>
+                    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                    <div class="text5">
+                      Kine master
+                    </div>
+                    <div class="text-xs font-medium text-grey leading-tight text6">
+                      Without Water Mark
+              
+                    </div>
+                    </div>
+                    </div>
+                    <a href="https://is.gd/xsmRsh"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+                    </div>
+                    </div>
+                    <hr>
+                    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                      <div class="w-full flex items-center justify-between p-3 alternate-background">
+                      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                      <img src="aseets/img/apps/videostar.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                      </div>
+                      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                      <div class="text5">
+                        Video star ++
+                      </div>
+                      <div class="text-xs font-medium text-grey leading-tight text6">
+                        Unlock all features
+                
+                      </div>
+                      </div>
+                      </div>
+                      <a href="https://is.gd/7wTVms"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+                
+                      </div>
+                      </div>
+                   
+                      <hr>
+
+                      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                        <div class="w-full flex items-center justify-between p-3 alternate-background">
+                        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                        <img src="aseets/img/apps/cute.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                        </div>
+                        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                        <div class="text5">
+                          CuteCut Pro
+                        </div>
+                        <div class="text-xs font-medium text-grey leading-tight text6">
+                          Unlock all features
+
+                        </div>
+                        </div>
+                        </div>
+                        <a href="https://is.gd/7TE5YL"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+                  
+                        </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                          <div class="w-full flex items-center justify-between p-3 alternate-background">
+                          <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                          <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                          <img src="aseets/img/appcake.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                          </div>
+                          <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                          <div class="text5">
+                            AppCake
+                          </div>
+                          <div class="text-xs font-medium text-grey leading-tight text6">
+                            download any app
+                    
+                          </div>
+                          </div>
+                          </div>
+                          <a href="https://is.gd/21lkG9"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+                    
+                          </div>
+                          </div>
+
+                        <hr>
+
+                        <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                          <div class="w-full flex items-center justify-between p-3 alternate-background">
+                          <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                          <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                          <img src="aseets/img/org.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                          </div>
+                          <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                          <div class="text5">
+                            Org 2020 hack
+                          </div>
+                          <div class="text-xs font-medium text-grey leading-tight text6">
+                            Unlock all features
+                    
+                          </div>
+                          </div>
+                          </div>
+                          <a href=""> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">Block</button></a>
+                    
+                          </div>
+                          </div>     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+      </div>
+      
+
+</div>
+<br>
+<br><br>
+
+    </div>
+      <!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps-->
+
+
+     
+      
+ <!--games-->  <!--games-->  <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games-->
+  <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games-->
+<div id="game" class="tabcontent">
+  <div class="card shadoww-sm border-0">
+    
+    <p class="text7"> Android apps </p>
+       
+    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+      <div class="w-full flex items-center justify-between p-3 alternate-background">
+      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="aseets/img/ipa.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+      </div>
+      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+      <div class="text5">
+        Social Plus
+      </div>
+      <div class="text6">
+      Ipa Apps
+      </div>
+      </div>
+      </div>
+     <a href="#modal-5"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">View</button></a>
+      </div>
+      </div>
+    <hr>
+    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+      <div class="w-full flex items-center justify-between p-3 alternate-background">
+      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+      <img src="aseets/img/pics.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+      </div>
+      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+      <div class="text5">
+        PicsArt Mod 
+      </div>
+      <div class="text6">
+        (Gold Membership Unlocked)
+
+      </div>
+      </div>
+      </div>
+      <a href="https://apkdone.com/picsart-apk-mods/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+    </div>
+    </div>
+
+      <hr>
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="aseets/img/vpn.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+          Turbo VPN MOD
+        </div>
+        <div class="text6">
+          (Gold Membership Unlocked)
+  
+        </div>
+        </div>
+        </div>
+        <a href="https://apkdone.com/turbo-vpn/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+  
+
+
+    <hr>
+
+
+
+    <hr>
+    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+      <div class="w-full flex items-center justify-between p-3 alternate-background">
+      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+      <img src="aseets/img/clash.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+      </div>
+      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+      <div class="text5">
+        clash of clans hack
+      </div>
+      <div class="text6">
+1- Unlimited Gems/Gold /Elixir
+2- This is a custom APK based on the official game with private server!
+
+      </div>
+      </div>
+      </div>
+      <a href="https://apkdone.com/clash-of-clans-apks/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+  
+
+
+  <hr>
+
+
+
+
+
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="aseets/img/kine.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+          Kinemaster Mod
+        </div>
+        <div class="text-xs font-medium text-grey leading-tight text6">
+       1. Unlocked (Supported arch (CPU) : Armeabi-v7a Only) _ 2. Ads/Services Disabled _ 3. Analytics Disabled
+4. Full Subscription Unlocked _ 5. Full Shop/Assets Access _ 6. No Watermark
+
+
+  
+        </div>
+        </div>
+        </div>
+        <a href="https://apkdone.com/kinemaster-apk-mods/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+  
+        <hr>
+         
+            <hr>
+            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+              <div class="w-full flex items-center justify-between p-3 alternate-background">
+              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+              <img src="aseets/img/inshot.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+              </div>
+              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+              <div class="text5">
+              Inshot
+              </div>
+              <div class="text-xs font-medium text-grey leading-tight text6">
+                Full Subscription Unlocked
+        
+              </div>
+              </div>
+              </div>
+              <a href="https://apkdone.com/inshot/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+  
+              <hr>
+              <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                <div class="w-full flex items-center justify-between p-3 alternate-background">
+                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                <img src="aseets/img/adob.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                </div>
+                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                <div class="text5">
+                  Adobe Lightroom MOD
+                </div>
+                <div class="text-xs font-medium text-grey leading-tight text6">
+               
+Premium Unlocked - Note: Please reload and after opening the app, don’t sign in.
+          
+                </div>
+                </div>
+                </div>
+                <a href="https://apkdone.com/adobe-lightroom/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+              </div>
+              </div>
+          
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/games/mini.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                   Minecraft
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                    
+             Free
+                  </div>
+                  </div>
+                  </div>
+                  <a href="https://apkdone.com/minecraft-pocket-edition-apk-mods/download"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+  
+    
+    
+    
+    
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2Ffa5eb00c-d7bf-491e-adcf-4d15ae4ceefe.image.png?v=1615217789278" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                    Face App
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                 - 𝗔𝗱𝘀 𝘂𝗻𝗹𝗼𝗰𝗸𝗲𝗱 - 𝗪𝗮𝘁𝗲𝗿𝗺𝗮𝗿𝗸 𝘂𝗻𝗹𝗼𝗰𝗸𝗲𝗱 - 𝗦𝘁𝘆𝗹𝗲𝘀(𝗣𝗿𝗼) 𝘄𝗼𝗿𝗸 𝗼𝗻𝗹𝘆 𝗶𝗻 𝗰𝗼𝗹𝗹𝗮𝗴𝗲 𝗺𝗼𝗱𝗲
+                  </div>
+                  </div>
+                  </div>
+                  <a href="https://apkdone.com/faceapp/download"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+         
+    
+    
+    
+    
+    
+        
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2F71fe4634-30e3-48c2-9d76-0d083e8b40cc.image.png?v=1615218646721" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                    Spotify App
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+- Unlocked Spotify Connect - Seek FWD button added to information bar/tablet mod - Visual ads blocked
+- Audio ads blocked - Seeking enabled - Unlimited shuffle - Choose any song - Extreme audio unlocked - Repeats enabled. - Note: Some server-side features require paid subscription.
+                  </div>
+                  </div>
+                  </div>
+                  <a href="https://apkdone.com/faceapp/download"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+        <hr>
+    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+      <div class="w-full flex items-center justify-between p-3 alternate-background">
+      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+      <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2Fc3bd6fd0-fba7-48bf-bbe6-235bd17dae01.image.png?v=1615219660763" style="border-radius: 20%;" width="50px" height="50px" class="n">
+      </div>
+      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+      <div class="text5">
+       Enlight Pixaloop Pro APK 1.3.5 (Unlocked)
+      </div>
+      <div class="text6">
+       Full Subscription Unlocked
+
+      </div>
+      </div>
+      </div>
+      <a href="https://apkdone.com/enlight-pixaloop/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+    </div>
+    </div>
+                
+    
+    
+  <hr>
+
+
+
+
+
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2F4b552324-28a6-4dd2-882f-84c5399298e2.image.png?v=1615220315000" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+      Pubg Mobile 1.2.0
+        </div>
+        <div class="text-xs font-medium text-grey leading-tight text6">
+      Unlimited UC Band 
+
+
+
+  
+        </div>
+        </div>
+        </div>
+        <a href="https://apkdone.com/pubg-mobile/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+    
+    
+      <hr>
+
+
+
+
+
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2Fd65933c2-7c1a-41be-92a4-2826549996ed.image.png?v=1615220396802" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+      Twitch MOD APK 10.2.0 (Remove Ads)
+        </div>
+        <div class="text-xs font-medium text-grey leading-tight text6">
+  
+Remove Ads
+
+        </div>
+        </div>
+        </div>
+        <a href="https://apkdone.com/twitch/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <hr>
+
+
+
+
+
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2F35238071-dd16-4c0b-9f16-c3585ad63e14.image.png?v=1615220747039" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+    Netflix MOD APK 7.92.0 (Premium)
+        </div>
+        <div class="text-xs font-medium text-grey leading-tight text6">
+  - Free and Unlimited Movies
+- No Sign in Required - Less Buffering {- Note: Use always a VPN for faster and less lagging experience.}
+
+        </div>
+        </div>
+        </div>
+        <a href="https://apkdone.com/netflix/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+             <hr>
+
+
+
+
+
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2F1a06cc18-97f4-4971-ad40-d4cd14646e62.image.png?v=1615220852221" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+  Discord 53.8 MOD APK
+        </div>
+        <div class="text-xs font-medium text-grey leading-tight text6">
+Mod 
+
+        </div>
+        </div>
+        </div>
+        <a href="https://apkdone.com/netflix/"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">download</button></a>
+      </div>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+              <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore-->
+               <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore-->
+              
+         </div>
+    
+   
+      </p>
+  
+  
+
+   
+
+    <!------------------------------------------------------!>
+  
+                
+                <!--dell-->
+<br><br>
+<br><br>
+  
+</div>
+
+<style>
+  .botton1{
+color: white !important;  
+  }
+</style>
+
+<div id="info" class="tabcontent" >
+  <!--danyar--><!--danyar--><!--danyar--><!--danyar-->
+  <div class="card shadoww-sm border-0">
+        
+
+ 
+    <p class="text16">Kurd_Tweek_App</p>
+    <p class="text17">JbTools Library Of Tweaked++ Apps , Hacked Games</p>
+    <div class="row">
+      <a href=""<button class="btn btn-success btn-block font-size-14 botton1" ype="text">Not Avalibe</button></a>
+    </div>
+
+      <br>
+      <row>
+        <center>
+        <a href="https://www.instagram.com/kurd_app/"><button class="btn btn btn-primary  text15" type="text">instgram</button></a>
+      <a href="https://www.youtube.com/channel/UCmqUhmu_TOM0Co74rtBXolQ">  <button class="btn btn btn-danger  text15" type="text">youtube</button></a>
+      </center>
+    </row>
+   </div>
+   
+<!--danyar--><!--danyar--><!--danyar--><!--danyar-->
+
+<!--About--><!--about--><!--about--><!--about-->
+<div class="card shadoww-sm border-0">
+        
+  <div class="">
+     <img src=""  class="img">
+ </div>
+ <br>
+ <br>
+ <br>
+ <br>
+ <p class="text13">Kurd_App</p>
+ <p class="text14">Ceo | Founder</p>
+ <row>
+   <center>
+ <a href="https://www.snapchat.com/add/ammarsaffar2006">  <button class="btn btn-rounded btn-secondary btn-sm text15" style="color: rgb(0, 0, 0) ; font-weight: bold;" type="button">snapchat</button></a>
+ </center>
+ </row>
+ 
+ </div>
+
+ <div class="card shadow-sm border-0 text25" >
+ @kurd_app
+
+</div>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 40px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 14px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 6px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 90%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 90%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="">
+  <h1></h1>
+ <h2></h2>
+  <p></p>
+</div>
+
+<h2 style="text-align:center"></h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2F81212483_515055606032130_8339118414698119168_n.jpg?v=1615224981467" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>AmmarSaffar</h2>
+        <p class="title">CEO & Founder & Coder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>AmmarSaffar012@gmail.com</p>
+     <a href="https://mail.google.com/" class="btn btn-primary text10 style" role="button">Contact</a>
+      </div>
+    </div>
+  </div>
+
+	
+	
+  <div class="column">
+    <div class="card">
+      <img src="https://cdn.glitch.com/3f000338-fab8-435e-80d8-87e605ee07da%2F73404027_3316471835059727_2727459032171282432_o.png?v=1615229832368" alt="Izzadin Company" style="width:100%">
+      <div class="container">
+        <h2>Izzadin Company</h2>
+        <p class="title">Sponser</p>
+        <p>Architectural Designer in Irbil, Iraq</p>
+        <p>FaceBook : Izzadin Company</p>
+      <a href="https://www.facebook.com/pg/izzadincompany/services/?service_id=1595186320540120&ref=page_internal" class="btn btn-primary text10 style" role="button">Contact Izzadin Company</a>
+      </div>
+    </div>
+  </div>
+</div>	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--About--><!--about--><!--about--><!--about-->
+ </div>
+ <br>
+<br>
+<br>
+<br>
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+  
+ 
+ 
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+function toggleDemo() {
+    halfmoon.toggleDarkMode();
+
+  }
+
+  document.getElementById("defaultOpen").click();
+
+  function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+   
+
+<script type="text/javascript">
+  // Toasts primary alert
+  function toastPrimaryAlert() {
+    halfmoon.initStickyAlert({
+      content: "This is a primary alert without a close button, that will stay up for 10 seconds.",
+      title: "Primary alert",
+      alertType: "alert-primary",
+      hasDismissButton: false,
+      timeShown: 10000
+    });
+  }
+  
+  // Toasts success alert
+  function toastSuccessAlert() {
+    halfmoon.initStickyAlert({
+      content: "This is a success alert that will be filled only in light mode.",
+      title: "Success alert",
+      alertType: "alert-success",
+      fillType: "filled-lm"
+    });
+  }
+  
+  // Toasts secondary alert
+  function toastSecondaryAlert() {
+    halfmoon.initStickyAlert({
+      content: "This is a secondary alert that will be filled only in dark mode.",
+      title: "Secondary alert",
+      alertType: "alert-secondary",
+      fillType: "filled-dm"
+    });
+  }
+  
+  // Toasts danger alert
+  function toastDangerAlert() {
+    halfmoon.initStickyAlert({
+      content: "Video Downloader not avalaible",
+      title: "Video Downloader not avalaible",
+      alertType: "alert-danger",
+      fillType: "filled"
+    });
+  }
+</script>
+
+<script>
+  // getting all required elements
+const searchWrapper = document.querySelector(".search-input");
+const inputBox = searchWrapper.querySelector("input");
+const suggBox = searchWrapper.querySelector(".autocom-box");
+const icon = searchWrapper.querySelector(".icon");
+let linkTag = searchWrapper.querySelector("a");
+let webLink;
+
+// if user press any key and release
+inputBox.onkeyup = (e)=>{
+    let userData = e.target.value; //user enetered data
+    let emptyArray = [];
+    if(userData){
+        icon.onclick = ()=>{
+            webLink = "https://jbtools.co/final/code/" + userData;
+            linkTag.setAttribute("href", webLink);
+            console.log(webLink);
+            linkTag.click();
+        }
+        emptyArray = suggestions.filter((data)=>{
+            //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
+            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase()); 
+        });
+        emptyArray = emptyArray.map((data)=>{
+            // passing return data inside li tag
+            return data = '<li>'+ data +'</li>';
+        });
+        searchWrapper.classList.add("active"); //show autocomplete box
+        showSuggestions(emptyArray);
+        let allList = suggBox.querySelectorAll("li");
+        for (let i = 0; i < allList.length; i++) {
+            //adding onclick attribute in all li tag
+            allList[i].setAttribute("onclick", "select(this)");
+        }
+    }else{
+        searchWrapper.classList.remove("active"); //hide autocomplete box
+    }
+}
+
+function select(element){
+    let selectData = element.textContent;
+    inputBox.value = selectData;
+    icon.onclick = ()=>{
+        webLink = "https://jbtools.co/final/code/" + selectData;
+        linkTag.setAttribute("href", webLink);
+        linkTag.click();
+    }
+    searchWrapper.classList.remove("active");
+}
+
+function showSuggestions(list){
+    let listData;
+    if(!list.length){
+        userValue = inputBox.value;
+        listData = '<li>'+ userValue +'</li>';
+    }else{
+        listData = list.join('');
+    }
+    suggBox.innerHTML = listData;
+}
+let suggestions = [
+    "Chimera",
+    "Facebook ++",
+    "Instagram ++",
+    "Tiktok ++",
+	"Kine master pro",
+    "Video star",
+    "8 ball pool",
+    "Agar.io",
+    "Among Us",
+    "Pubg hack",
+  	 "unc0ver",
+   
+
+
+
+   
+];
+</script>
